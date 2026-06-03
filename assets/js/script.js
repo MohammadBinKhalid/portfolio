@@ -489,6 +489,16 @@ document.getElementById('myBtn52').addEventListener('click', function() {
 
 
 
+
+
+
+document.getElementById('myBtn53').addEventListener('click', function() {
+  openModal('myModal53');
+});
+
+
+
+
 function openModal(modalId) {
   var modal = document.getElementById(modalId);
   modal.style.display = 'flex';
